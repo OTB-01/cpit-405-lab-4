@@ -2,7 +2,7 @@ body{
     background-color: rgb(25, 25, 25);
     background-image: none;
     font-size: 18px;
-    color: antiquewhite;
+    color: wheat;
     font-family: 'Courier New', Courier, monospace;
 }
 form{
@@ -23,15 +23,25 @@ form{
     margin-right: auto;
 }
 
-label, input, select, textarea{
+label, input, select, textarea, button{
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top: 1px;
 }
 
 input {
     padding: 0.5em;
+}
+
+button{
+    background-color: rgb(25, 25, 25);
+    color: wheat;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    margin-top: 0.5em;
 }
 
 #comment{
